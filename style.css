@@ -71,7 +71,7 @@ body {
     background-color: #333;
     font-size: 90px;
     padding: 25px;
-    /*background-image: url("Black.jpg");*/
+    /*background-image: url("images/Black.jpg");*/
     /*
     color: white;
     padding: 18px;
@@ -124,24 +124,26 @@ body {
 }
 */
 
-.centerbody {
+.mainbody {
     text-align: center;
     background: white;
+    background-image: url("images/Lines\ Faded.png");
+    background-repeat: repeat;
     color: #333;
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
-.centerbody h1 {
+.mainbody h1 {
     font-size: 60px;
     margin: 20px;
 }
 
-.centerbody h3 {
+.mainbody h3 {
     color: #00c8af;
 }
 
-.padcenterbody {
+.padmainbody {
     padding-left: 80px;
     padding-right: 80px;
 }
@@ -195,7 +197,7 @@ body {
 }
 
 .piccontainer {
-    background-image: url("Chip.jpg");
+    background-image: url("images/Chip.jpg");
     padding: 20px;
 }
 
